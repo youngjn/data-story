@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Data Story - June Jung</title>
+
+</head>
+<body>
+	<nav class="top-nav">
+		<p class="site-title">GD3</p>
+		<p class="love-meat">GRPH-3017</p>
+	</nav>
+	<header>
+		<div class="quote-container">
+			<h1 class="intro-quote">I have known many meat eaters to be far more nonviolent than vegetarians.</h1>
+			<p class="quote-from">Mahatma Gandhi</p>
+		</div>
+	</header>
+	<main>
+		<div class="main-content">
+			<h1 class="title">More We Eat Meat</h1>
+			<h2 class="author">by June Jung in OCADU Graphic Design.</h2>
+			<h3 class="date">Oct 7, 2021</h3>
+
+			<p>Generally speaking, meat is the most consumed ingredient for different kinds of cuisine and different types of foods. All countries have their different types of meat cuisine, or their own way to cut, raise, or even grill. Unlike special types of fruits or other food ingredients, meat has always been one of the main ingredients in human history. Since human beings learned hunting, meat also has been the easiest ingredient to access and the ingredient that we consumed the most. And the fact remains the same now here in the 21st century as well. We can see how people think and treat meat by looking at the chart of the global meat production.</p>
+		</div>
+		<div class="chart-container firstChart">
+			<h3 class="firstChart-title">Global Meat Production from <span class="red">2000</span> to <span class="red">2018</span></h3>
+			<p><span class="number">200000000</span> tons</p>
+			<div class="yearbox">
+				<button type="button" class="2000" onclick="twoth()">2000</button><button type="button" class="2002" onclick="twothtwo()">2002</button><button type="button" class="2004" onclick="twothfour()">2004</button><button type="button" class="2006" onclick="twothsix()">2006</button><button type="button" class="2008" onclick="twotheight()">2008</button><button type="button" class="2010" onclick="twothten()">2010</button><button type="button" class="2012" onclick="twothtwelve()">2012</button><button type="button" class="2014" onclick="twothfourteen()">2014</button><button type="button" class="2016" onclick="twothsixteen()">2016</button><button type="button" class="2018" onclick="twotheighteen()">2018</button><button type="button" class="2001" onclick="twothone()">2001</button><button type="button" class="2003" onclick="twoththree()">2003</button><button type="button" class="2005" onclick="twothfive()">2005</button><button type="button" class="2007" onclick="twothseven()">2007</button><button type="button" class="2009" onclick="twothnine()">2009</button><button type="button" class="2011" onclick="twotheleven()">2011</button><button type="button" class="2013" onclick="twoththirteen()">2013</button><button type="button" class="2015" onclick="twothfifteen()">2015</button><button type="button" class="2017" onclick="twothseventeen()">2017</button>
+			</div>
+			
+		</div>
+		<div class="main-content">
+			<p>In this chart, the global meat production has been increasing gradually from 2000 to 2018. People want and crave meat more and more. For me, if someone asks me what my favourite cuisine is, I can not answer since there are so many. However, in terms of ingredients, not the cuisine, I would definitely say meat. Just like me, it’s really hard to find who does not love meat. Especially, in South Korea - where my home country - people there eat meat like crazy. They eat almost all parts of the pork, chicken and beef. Even the skin of the pig becomes the food in Korea. Also Koreans have a really big pride about ‘Korean Beef’, and ‘Korean Pork’ which are called ‘Hanu’, and ‘Handon’. As a result, meat production in Korea inevitably increased every year as well.
+			</p>
+		</div>
+		<div class="chart-container">
+			<canvas id="secondChart"></canvas>
+		</div>
+		<div class="main-content">
+			<p>The biggest issue with consuming so much meat every year is GreenHouse Gas emissions which is also known as GHG. GreenHouse Gases trap heat from escaping so that the heat comes back naturally and it warms the planet again and again. So if GreenHouse Gas emissions increase, it means the temperature of the earth can increase too, and we all know that if the temperature goes up, that is not a good sign. Because of the increase of GHG emissions, last 200 years, the temperature of the planet has increased by 1.0 Celsius. The main gases responsible for the greenhouse effect include carbon dioxide, methane, nitrous oxide, and water vapor (which all occur naturally), and fluorinated gases (which are synthetic).
+			</p>
+		</div>
+		<div class="chart-container">
+			<canvas id="thirdChart"></canvas>
+		</div>
+	</main>
+	<footer>
+		<div class="metadata-container"></div>
+		<script
+		  src="https://code.jquery.com/jquery-3.6.0.min.js"
+		  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+		  crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.5.1/chart.min.js"></script>
+		<script type="text/javascript" src="script.js"></script>
+	</footer>
+</body>
+</html>
